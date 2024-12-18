@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p>
+        JavaScript is a versatile, dynamically typed programming language used for interactive web applications, supporting both client-side and server-side development, and integrating seamlessly with HTML, CSS, and a rich standard library.
+
+        JavaScript is a single-threaded language which means it executes one task at a time.
+        It is an Interpreted language which means it executes the code line by line.
+        The data type of the variable is decided at run-time in JavaScript that’s why it is called dynamically typed.
+        Key Features of JavaScript
+Client-Side Scripting: JavaScript runs on the user’s browser, so has a faster response time without needing to communicate with the server.
+Versatile: JavaScript can be used for a wide range of tasks, from simple calculations to complex server-side applications.
+Event-Driven: JavaScript can respond to user actions (clicks, keystrokes) in real-time.
+Asynchronous: JavaScript can handle tasks like fetching data from servers without freezing the user interface.
+Rich Ecosystem: There are numerous libraries and frameworks built on JavaScript, such as React, Angular, and Vue.js, which make development faster and more efficient.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
